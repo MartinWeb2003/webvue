@@ -15,7 +15,7 @@
       >
         <h3>{{ recipe.title }}</h3>
         <p>{{ recipe.description }}</p>
-        <span class="delete-icon" @click.stop="deleteRecipe(recipe.id)">&times;</span>
+        <span class="delete-icon" @click.stop="deleteRecipe(recipe.id!)">&times;</span>
       </li>
     </ul>
 
